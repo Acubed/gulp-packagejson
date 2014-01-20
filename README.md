@@ -20,7 +20,7 @@ var packagejson = require('gulp-packagejson');
 
 gulp.task('default', function () {
 	gulp.src('.')
-		.pipe(packagejson())
+		.pipe(packagejson({name:'project-npm-name'}))
 		.pipe(gulp.dest('.'));
 });
 ```
