@@ -32,7 +32,7 @@ gulp.task('default', function () {
 
 Options has the following options:
 
-None right now, but there may be options to enable/disable features like git, yaml, and other sources.
+* name: the npm name of your package
 
 
 ## License
